@@ -1,12 +1,17 @@
 import React from 'react';
+import Title from "./Title";
+import MyEmail from "./MyEmail";
+import MyPhoneNumber from "./MyPhoneNumber";
+
+import './App.scss'
 
 const App = () => {
   return (
-      <>
-        <div>Contact Colby Ackerman</div>
-        <div>colbyackerman@gmail.com</div>
-        <div>(636) 699-2060</div>
-      </>
+      <div className={'App'}>
+        <Title />
+        <MyEmail />
+        <MyPhoneNumber />
+      </div>
   );
 }
 

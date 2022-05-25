@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: #09094b;
+  --fgColor: #b1c8e7;
+  --linkColor: orange;
+  --linkColor_hl: #ffcc00;
+}
+
+html {
+  font-size: 33px;
+}
+
+body, .App {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--fgColor);
+  background-color: var(--bgColor);
+
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--linkColor);
+
+  &:hover {
+    color: var(--linkColor_hl);
+  }
+}
+
+
+
+.Title {
+  padding-bottom: 0.7rem;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.MyEmail {
+  padding: 0.2rem;
+  font-size: 1.1rem;
+}
+
+.MyPhoneNumber {
+  padding: 0.2rem;
+  font-size: 1.1rem;
+}
