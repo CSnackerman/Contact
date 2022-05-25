@@ -1,3 +1,5 @@
+# Author: Colby Ackerman
+# Contact: colbyackerman@gmail.com or (636) 699-2060
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
