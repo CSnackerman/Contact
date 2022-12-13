@@ -1,5 +1,5 @@
 ## Contact Me
-#### https://contact-colby.herokuapp.com/
+#### Colby Ackerman - Developer
 #### colbyackerman@gmail.com
 #### (636) 699-2060
 
